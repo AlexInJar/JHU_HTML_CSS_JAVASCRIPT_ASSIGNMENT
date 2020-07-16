@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(9, 20, 29);
+}
+
+
+
+#navbar-head {
+    background-color: rgb(153, 106, 17);
+    border: 0;
+    border-radius: 0;
+    height: 60px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#company-brand {
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-size: 1.75em;
+    text-shadow: 1px 1px 1px black;
+    vertical-align: middle;
+    color: black;
+   
+
+
+    
+}
