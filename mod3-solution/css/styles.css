@@ -36,6 +36,10 @@ body {
     color: #951c49;
   } */
 
+a > .text-center {
+    font-size: 1em;
+}
+
 .text-center{
     font-size: 2em;
     padding: 10px;
