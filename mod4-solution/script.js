@@ -48,10 +48,11 @@ Good Bye Jim
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    if (names[i].charAt(0).toLowerCase() == 'j') {
-      window.byeSpeaker.speak(names[i]);
+    var name = names[i];
+    if (name.charAt(0).toLowerCase() == 'j') {
+      window.byeSpeaker.speak(name);
     } else {
-      window.helloSpeaker.speak(names[i]);
+      window.helloSpeaker.speak(name);
     }
   }
 }) (window);
